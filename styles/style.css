@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   font-family: Arial, sans-serif;
   font-size: 16px;
   min-width: 1100px;
@@ -21,7 +20,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +30,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   column-gap: 20px;
   display: flex;
   margin: 8px 0 0;
@@ -47,7 +44,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
     display: flex;
     justify-content: flex-end;
 }
@@ -115,7 +111,6 @@
   margin: 0 0 68px;
   color: #ffffff;
 }
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards{
   max-width: 760px;
   margin: auto;
