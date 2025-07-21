@@ -45,7 +45,7 @@
 
 .header__content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .header__title {
@@ -108,17 +108,18 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 0 0 68px;
   color: #ffffff;
 }
 .staff__cards{
   max-width: 760px;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   gap: 40px;
   padding: 0;
+  margin-top: 68px;
+  justify-content: center;
 }
 
 .card {
@@ -127,7 +128,7 @@
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   width: 360px;
-  height: 480px;
+  height: 420px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
