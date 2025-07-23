@@ -44,8 +44,8 @@
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -111,7 +111,7 @@
   color: #ffffff;
   margin: 0;
 }
-.staff__cards{
+.staff__cards {
   max-width: 760px;
   margin: 0 auto;
   display: flex;
@@ -248,36 +248,37 @@
 
 .person_name_feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  bottom: 739px;
+  position: absolute;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  left: 256px;
-  bottom: 892px;
+  position: absolute;
+  right: 125px;
+  top: 96px;
 }
 
 .person_name_cannon {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-    left: 149px;
-    bottom: 725px;
+  position: absolute;
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-    position: relative;
-    bottom: 654px;
-    right: 247px;
+  position: absolute;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  right: 229px;
-  bottom: 779px;
+  position: absolute;
+  left: 159px;
+  top: 79px;
 }
 
 .person__image {
