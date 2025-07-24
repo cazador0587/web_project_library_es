@@ -44,8 +44,8 @@
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -87,6 +87,7 @@
   margin: 0;
   color: #838383;
 }
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
@@ -111,7 +112,8 @@
   color: #ffffff;
   margin: 0;
 }
-.staff__cards{
+
+.staff__cards {
   max-width: 760px;
   margin: 0 auto;
   display: flex;
@@ -163,6 +165,7 @@
   color: #838383;
   margin-top: auto;
 }
+
 /*Parte 3 del proyecto*/
 .events {
   padding: 100px 0 120px 80px;
@@ -248,36 +251,37 @@
 
 .person_name_feynman {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  bottom: 739px;
+  position: absolute;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  left: 256px;
-  bottom: 892px;
+  position: absolute;
+  right: 125px;
+  top: 96px;
 }
 
 .person_name_cannon {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-    left: 149px;
-    bottom: 725px;
+  position: absolute;
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-    position: relative;
-    bottom: 654px;
-    right: 247px;
+  position: absolute;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
-  position: relative;
-  right: 229px;
-  bottom: 779px;
+  position: absolute;
+  left: 159px;
+  top: 79px;
 }
 
 .person__image {
@@ -300,4 +304,123 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+/*Parte Final del proyecto*/
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  /* Agrega estilos */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-basis: auto;
+  column-gap: 40px;
+}
+
+.step {
+  /* Agrega estilos */
+  width: 220px;
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  /*background-color: #1f1f1f;*/
+  padding: 60px 80px 60px 80px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+}
+
+.footer__column-heading {
+  display: flex;
+  margin-top: 0%;
+  font-size: small;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  font-size: small;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__copyright {
+  font-size: small;
+  margin-top: 100px;
 }
