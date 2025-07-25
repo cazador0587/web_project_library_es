@@ -423,4 +423,5 @@
 .footer__copyright {
   font-size: small;
   margin-top: 100px;
+  box-sizing: border-box;
 }
